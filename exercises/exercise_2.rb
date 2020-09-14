@@ -9,5 +9,3 @@ puts "----------"
 @store2 = Store.find(2)
 
 @store1.update(name: 'Toronto', annual_revenue: 2400000)
-
-p @store1
